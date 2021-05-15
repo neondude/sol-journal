@@ -40,8 +40,12 @@ class Welcome extends Component {
       <WelcomeGrid>
         <Helmet>
           <meta
-            name="description"
-            label="Connect with your soul through a simple, beautiful journaling experience from any device."
+            name="robots"
+            content="noindex"
+          />
+          <meta
+            name="googlebot"
+            content="noindex"
           />
         </Helmet>
         <div

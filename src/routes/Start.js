@@ -87,8 +87,12 @@ class Start extends Component {
       <StartGrid>
         <Helmet>
           <meta
-            name="description"
-            label="Connect with your soul through a simple, beautiful journaling experience from any of your devices."
+            name="robots"
+            content="noindex"
+          />
+          <meta
+            name="googlebot"
+            content="noindex"
           />
         </Helmet>
         <h1>Record what's on your mind, from anywhere</h1>
